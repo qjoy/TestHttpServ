@@ -1,0 +1,28 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1228:14)
+    at listenInCluster (net.js:1276:12)
+    at doListen (net.js:1415:7)
+    at processTicksAndRejections (internal/process/task_queues.js:74:11)
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (node:net:1310:16)
+    at listenInCluster (node:net:1358:12)
+    at doListen (node:net:1496:7)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (node:net:1310:16)
+    at listenInCluster (node:net:1358:12)
+    at doListen (node:net:1496:7)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+    at Server.setupListenHandle [as _listen2] (node:net:1310:16)
+    at listenInCluster (node:net:1358:12)
+    at doListen (node:net:1496:7)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
