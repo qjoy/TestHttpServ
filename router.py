@@ -24,7 +24,10 @@ def xuexi():
             return info
     else:
         userdict[user] = curtime
-    os.system("python /Users/alexq/Library/Mobile\ Documents/com~apple~CloudDocs/code/daily/DailyXueXiWork/main1.py")
+    pypath = os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))) + os.sep + 'DailyXueXiWork' + os.sep + 'main1.py'
+    print(pypath)
+    os.system("python " + pypath)
     return '即刻学习完成'
 
 @app.route('/ngrok/dakanow')
@@ -40,10 +43,10 @@ def ngrok():
             return info
     else:
         userdict[user] = curtime
-    os.system("export ANDROID_HOME=/Users/alexq/Library/Android/sdk")
-    os.system("export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools")
+    pypath = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + os.sep + 'DailyHengTai' + os.sep + 'main_daka_now.py'
     os.system("nohup appium &")
-    os.system("python3 /Users/alexq/Library/Mobile\ Documents/com~apple~CloudDocs/code/daily/DailyHengTai/main_daka_now.py")
+    print(pypath)
+    os.system("python " + pypath)
     return '立即打卡已执行'
 
 if __name__ == '__main__':
